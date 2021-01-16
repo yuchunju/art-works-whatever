@@ -1,0 +1,242 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+   background-color: #99CCFF;
+
+}
+
+#it,#zh,#en{
+position: relative;
+background:none;
+border: none;
+float: right;
+top: 30px;
+right: 23%;
+z-index: 999;
+width: 30px;
+}
+
+#it:hover,#zh:hover,#en:hover{
+	border: none;
+	background: none;
+	padding-top: 5px;
+}
+
+#it:focus,#zh:focus,#en:focus{
+	border: none;
+	background-color:#3F98F3;
+	padding-top: 5px;
+	outline: none;
+	border-radius:50%;
+}
+
+
+
+.container-fluid nav{
+	position:relative;
+  top:.7rem;
+	width:windowWidth;
+	text-align:center;
+	}
+
+.container-fluid nav li{
+	display:inline-block;
+	background:url('lib/pic/me05.png');
+    background-size:contain;
+    background-repeat:no-repeat;
+	padding:2rem;
+	transition-property:background-img;
+
+	}
+.container-fluid nav li:hover{
+	display:inline-block;
+	background:url('lib/pic/me06.png');
+    background-size:contain;
+    background-repeat:no-repeat;
+	padding:2rem;
+}
+
+.container-fluid nav li a{
+	display:inline-block;
+	width:100%;
+	height:100%;
+	display:block;
+	text-decoration: none;
+	color:#FFFFFF;
+	cursor:help;
+	}
+.container-fluid nav li a:hover{
+	display:inline-block;
+	color:#FFFFFF;
+   text-decoration:underline;
+	}
+
+
+
+
+.container-fluid {
+   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	width:60%;
+	height:60%;
+	margin:auto;
+   color: #FFFFFF;
+}
+.container-fluid p {
+	margin:0px;
+}
+
+.mySlides1 {display: none}
+img { vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin-top:30px;
+  background-color: #FFFFFF;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #0E87F8;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: #FF66CC;
+}
+
+
+  #scan,#dance1,#mask,#violin,#draw,#shine,#cat,#earring{
+        position: relative;
+        height:40%;
+        width:40%;
+        left: 30%;}
+
+   #shj2{
+        position: relative;
+        height:80%;
+        width:80%;
+        left: 15%;
+   }
+   #draw2,#guitar {
+        position: relative;
+        height:70%;
+        width:70%;
+        left: 15%;
+   }
+
+   #shj{
+        position: relative;
+        height:55%;
+        width:55%;
+        left: 22%;
+   }
+
+   #dance2{
+        position: relative;
+        height:19%;
+        width:19%;
+        left: 40%;
+   }
+
+#footer{
+    position:relative;
+}
+#footer p{
+    color:#FFFFFF;
+    margin-top:150px;
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+
+
+@media (max-width: 930px) {
+	.container-fluid {
+	width:100%;
+   margin:0;
+   color: #FFFFFF;
+     }
+	.container-fluid nav{
+	 text-align:left;
+	   }
+	#it,#zh,#en{
+position: relative;
+background:none;
+border: none;
+float: right;
+top: 20px;
+right: 10px;
+z-index: 999;
+width: 30px;
+}
+
+
+  #mask,#violin, #draw,#shine,#cat,#earring{
+    position: relative;
+    height:70%;
+    width:70%;
+    left: 15%;}
+
+
+ #draw2,#shj2,#guitar {
+        position: relative;
+        height:100%;
+        width:100%;
+        left: 0%;
+   }
+
+ #scan,#dance1,#shj{
+    position: relative;
+    height:90%;
+    width:90%;
+    left: 5%;}
+
+
+   #dance2{
+        position: relative;
+        height:40%;
+        width:40%;
+        left: 33%;
+   }
+
+
+#footer p{
+    margin-top:150px;
+    margin-bottom: 20px;
+    text-align:center;
+    font-size: 13px;
+}
+
+}
+
+
+
+
+
+
+
